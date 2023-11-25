@@ -1,0 +1,88 @@
+#main { 
+    text-align: center; 
+    background-color: #5f0373;
+}
+h1 { 
+    color: #dff805; 
+    margin-bottom: -5px; 
+} 
+p { 
+    margin-bottom: -10px; 
+} 
+#ins { 
+    font-family: Verdana,Geneva,  Tahoma, sans-serif; 
+    color: #99ff00; 
+}
+.ui { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+} 
+.row { 
+    display: flex; 
+} 
+.cell { 
+    border: none; 
+    width: 170px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 50px; 
+    text-align: center; 
+    cursor: pointer; 
+    background-color: #ffffff;
+}   
+.cell:active { 
+    outline: none; 
+} 
+
+#b1{ 
+    border-bottom: 5px solid #91a69c; 
+    border-right: 5px solid #91a69c; 
+}  
+#b2 { 
+    border-bottom: 5px solid #91a69c; 
+}  
+#b3 { 
+    border-bottom: 5px solid #91a69c; 
+    border-left: 5px solid #91a69c; 
+}  
+#b4 {  
+    border-right: 5px solid #91a69c; 
+}     
+#b5 { 
+    border: 1px solid #91a69c; 
+}  
+#b6 {  
+    border-left: 5px solid #91a69c; 
+} 
+#b7 { 
+    border-top: 5px solid #91a69c; 
+    border-right: 5px solid #91a69c; 
+}   
+#b8 { 
+    border-top: 5px solid #91a69c;  
+}  
+#b9 { 
+    border-top: 5px solid #91a69c;
+    border-left: 5px solid #91a69c;  
+} 
+#but { 
+    box-sizing: border-box; 
+    width: 150px; 
+    height: 50px; 
+    border: 5px solid #fc001e; 
+    margin-left: auto; 
+    border-radius: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: #fc567e; 
+    color: #000000; 
+    font-size: 30px; 
+    cursor: pointer; 
+}  
+#print { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #3df9bd; 
+    font-size: 25px; 
+}  
